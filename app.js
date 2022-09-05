@@ -5,12 +5,16 @@ function getComputerChoice() {
     let paper = 2;
     let scissors = 3;
     let compChoice = rndInt;
-    if (compChoice == rock) {
-        return 'roca';
-    } else if (compChoice == paper) {
-        return 'paper';
-    } else if (compChoice == scissors) {
-        return 'scissrs';
+    switch (compChoice) {
+        case rock:
+            console.log('roca')
+            break;
+        case paper:
+            console.log('paper')
+            break
+        case scissors:
+            console.log('scissors');
+            break
     }
 }
 
