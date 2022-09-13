@@ -23,6 +23,14 @@ footer {
     font-size: 25px;
 }
 
+#userScore {
+    color: #21f178;
+}
+
+#computerScore {
+    color: #b01840;
+}
+
 #rbtn {
     background-image: url(images/rocktwo.png);
     background-repeat: no-repeat;

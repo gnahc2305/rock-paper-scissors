@@ -19,25 +19,30 @@ function getComputerChoice() {
 function win() {
     playerScore++;
     results.textContent = 'You Win!';
+    results.style.cssText = 'color: green';
     userScore_span.textContent = `User Score = ${playerScore}`;
 }
 
 function lose() {
     computerScore++;
     results.textContent = 'You lose!';
+    results.style.cssText = 'color: red';
     computerScore_span.textContent = `Computer Score = ${computerScore}`;
 }
 
 function tie() {
     results.textContent = 'Tie! Try Again';
+    results.style.cssText = 'color: white';
 }
 
 function endofGame() {
     if (playerScore === 5) {
         alert('You Win!');
+        location.reload();
         
     } else if (computerScore === 5) {
         alert('You Lose!');
+        location.reload();
     }
 }
 
