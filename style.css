@@ -83,9 +83,10 @@ button:hover {
 .computerChoiceContainer {
     text-align: center;
     font-size: 25px;
+    margin-bottom: 20px;
 }
 
 .resultsContainer {
     text-align: center;
-    font-size: 25px;
+    font-size: 35px;
 }
