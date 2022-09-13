@@ -1,0 +1,83 @@
+* {
+    background-color: #1f2938;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+}
+
+#header {
+    text-align: center;
+    font-size: 30px;
+}
+
+.scores {
+    text-align: center;
+    font-size: 25px;
+}
+
+#rbtn {
+    background-image: url(images/rocktwo.png);
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    height: 160px;
+    width: 160px;
+    margin: 0px 30px;
+}
+
+#rbtn:hover {
+    border-color: yellow;
+}
+
+#pbtn {
+    background-image: url(images/paper2.png);
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    height: 160px;
+    width: 160px;
+    margin: 0px 30px;
+}
+
+#sbtn {
+    background-image: url(images/scissors2.png);
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    height: 160px;
+    width: 160px;  
+    margin: 20px 30px;
+}
+
+button {
+    /* margin-top: rem; */
+    margin-bottom: 2rem;
+    border-radius: 10px;
+    border-width: 4px;
+    border-color: lightblue;
+}
+
+.buttonsContainer {
+    text-align: center;
+    margin: 3rem;
+}
+
+button:hover {
+    border-color: yellow;
+    transition: 0.3s;
+}
+
+.computerChoiceContainer {
+    text-align: center;
+    font-size: 25px;
+}
+
+.resultsContainer {
+    text-align: center;
+    font-size: 25px;
+}
